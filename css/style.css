@@ -1,0 +1,55 @@
+* {
+    maring: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.movie-card{
+    text-align: center;
+}
+
+.movie-title {
+    color: rgb(93, 0, 0);
+}
+
+.movie-info-overview-title {
+    text-transform: uppercase;
+    color: rgb(93, 0, 0);
+}
+
+.movie-genres {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.movie-poster-container img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+}
+
+.movie-info-quote{
+    font-weight: bold;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+ul li a {
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(93, 0, 0);
+}
+
+.footer{
+    margin-top: 2rem;
+    text-align: center;
+}
